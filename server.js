@@ -5,7 +5,7 @@ const dns = require("dns");
 
 var app = express();
 var url = process.env.MONGOLAB_URI;
-var appURL = "https://url-shortener-dxstone.c9users.io/";
+var appURL = "https://stonedavid-url-shortener.herokuapp.com/";
 var domain;
 console.log(url);
 
