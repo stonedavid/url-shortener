@@ -4,12 +4,22 @@
   "description": "Url shortener",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "David Stone",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",
     "mongodb": "^2.2.6"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stonedavid/url-shortener.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stonedavid/url-shortener/issues"
+  },
+  "homepage": "https://github.com/stonedavid/url-shortener#readme"
 }
